@@ -1,0 +1,156 @@
+/* Universal Styles */
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+main {
+}
+
+a {
+  color: white;
+}
+
+/* h4 {
+display: inline;
+} */
+
+/* Universal Styles - body */
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header span {
+  padding-right: 20px;
+}
+/* <!-- Main Content --> */
+
+/* <!-- Hero Image --> */
+
+.hero-image {
+  height: 700px;
+  width: 1200px;
+  background-color: white;
+  z-index: 0;
+  margin: 0 auto;
+  position: relative;
+  background-image: url("../resources/images/img-mission-background.jpg");
+}
+
+.our-mission {
+  width: 1200px;
+  height: 100px;
+  height: ;
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+}
+
+.our-mission h2, h4 {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* <!-- Products --> */
+
+.tea-of-the-month {
+  width: 1000px;
+  height: 150px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tea-selection {
+  display: block;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.items img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations */
+
+.locations-container {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.location-text-box-container {
+  background-image: url("../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* bottom: 440px */
+}
+
+.locations-text-box {
+  display: flex;
+  flex-direction: row;
+  margin: 100 auto;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer {
+  display: inline-block;
+  height: 200px;
+}
+
+.footer-copyright {
+  text-align: left;
+}
